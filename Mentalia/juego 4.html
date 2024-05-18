@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guess Flags</title>
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <section>
+        <h1>Flags game</h1>
+        <div id="imagen-container">
+            <img id="imagen" src="" alt="Image">
+        </div>
+        <input id="respuesta" type="text" placeholder="Enter your answer">
+        <button onclick="verifyResponse()" id="submit-button">Submit</button>
+        <p id="timer">Tiempo restante: <span id="tiempo-restante"></span> segundos</p>
+        <p id="puntuacion">Puntuación: 0</p>
+        <p id="mensaje"></p>
+        <p id="pista">Pista: </p>
+        <button id="restart" style="display: none;" onclick="restartGame()">Restart</button>
+    </section>
+<script src="js/juego.js"></script>
+</body>
+</html>

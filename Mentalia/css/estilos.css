@@ -1,0 +1,74 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ 
+body {
+    background: linear-gradient(#253b41, #43d6d4);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* Section Styles */
+section {
+    width: 500px;
+    background-color: #1d2837;
+    border: 3px solid #fff;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#imagen-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#imagen {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #02bfa4;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+button {
+    display: block;
+    width: fit-content;
+    margin: auto;
+    background-color: transparent;
+    border: 2px solid #02bfa4;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+button:hover {
+    background-color: #02bfa4;
+}
+
+#mensaje {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
